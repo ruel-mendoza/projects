@@ -1,0 +1,5 @@
+@media screen and (-ms-high-contrast:active),(-ms-high-contrast:none){
+	.hourly{height:300px}
+	.dedicatedstaff{background-size:30% auto;height:216px}
+	textarea.c-text{height: 209px;}
+}

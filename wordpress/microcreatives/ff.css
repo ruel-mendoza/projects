@@ -1,0 +1,48 @@
+@-moz-document url-prefix(){
+.hourly{height:300px}
+.dedicatedstaff{background-size:32% auto;height:216px}
+span.wpcf7-list-item{max-width:18.15%;margin-left:2.3%}
+span.wpcf7-list-item label{font-size:80%}
+span.Questionsandconcerns{padding:12px;margin-bottom:2px;}
+    @media only screen and (max-width:480px){
+    #filters>ul>li>div>div:nth-child(even) {margin: 0 0 4px 3px}
+	#filters ul li a h5{font-size:16px;}
+	}
+
+	@media only screen and (max-width: 320px) {
+		.captcha-313 {
+			padding: 25px 4px 13px !important;
+		}
+	}
+	@media only screen and (max-width: 480px){
+		.breakIt h2 .char10 .ani {
+		    background-size: 90% auto !important;
+		    margin-top: 4px !important;
+		}
+	}
+	@media only screen and (max-width: 480px),(max-width:568px) {
+		.captcha-313 {
+		    padding: 12px 4px 2px;
+		}
+	}
+    @media only screen and (max-width:768px){
+		.dedicatedstaff{background-size:100% auto}
+		.captcha-313{padding: 20px 10px 15px;}
+
+	}
+	@media only screen and (max-width: 1024px){
+		textarea.c-text{height:183px!important}
+		.capcha{padding:0px;}
+		.captcha-313{padding: 15px 17px 13px 17px;}
+
+		.breakIt h2 .char10 .ani {
+		    background-size: 90% auto !important;
+		    margin-top: 4px !important;
+		}
+	}
+	@media only screen and (min-width: 1025px){
+		textarea.c-text{height:217px!important}
+		.capcha{margin-bottom:3px;}
+		.capchabox{padding: 28px 0 !important;}
+	}
+}
